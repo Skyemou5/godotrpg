@@ -8,15 +8,20 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "node",
+"class": "Player",
+"language": "GDScript",
+"path": "res://scripts/PlayerClass.gd"
+} ]
 _global_script_class_icons={
-
+"Player": ""
 }
 
 [application]
 
 config/name="actionrpg"
-run/main_scene="res://World.tscn"
+run/main_scene="res://Game.tscn"
 config/icon="res://icon.png"
 
 [display]
